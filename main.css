@@ -1,0 +1,292 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+header .container {
+  background-image: url(./images/BG.png);
+  max-width: 1420px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+header .container nav .landify {
+  padding: 20px 112px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container nav .landify .landi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+}
+header .container nav .landify .landi .features {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  color: #111827;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+header .container nav .landify .play {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+header .container nav .landify .burger i {
+  display: none;
+}
+header .container .the {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 650px;
+  margin-top: 248px;
+  margin-left: 112px;
+}
+header .container .the h1 {
+  color: #111827;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+}
+header .container .the p {
+  color: #111827;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+header .container .the .get {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .container .the .get button {
+  font-size: 18px;
+  width: 138px;
+  height: 56px;
+  border: none;
+  color: #ffffff;
+  border-radius: 8px;
+  background: #7c3aed;
+}
+header .container .the .get div button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 179px;
+  height: 56px;
+  color: #7c3aed;
+  border: none;
+  background: white;
+}
+header .container .shakl1 {
+  width: 612px;
+  height: 140.808px;
+  flex-shrink: 0;
+  background: #C4B5FD;
+  transform: skewY(352deg) translate(803px, 100px);
+}
+header .container .shakl2 {
+  width: 520px;
+  height: 116.517px;
+  flex-shrink: 0;
+  background-color: #75E3EA;
+  transform: skewY(352deg) translate(0px, -24px);
+}
+header .container .shakl3 {
+  width: 220px;
+  height: 116.517px;
+  flex-shrink: 0;
+  transform: skewY(352deg) translate(1195px, -3px);
+  background-color: #75E3EA;
+}
+header .container .shakl4 {
+  width: 320px;
+  height: 116.517px;
+  flex-shrink: 0;
+  transform: skewY(352deg) translate(0px, -130px);
+  background-color: #EDE9FE;
+}
+header .container .shakl5 {
+  width: 420px;
+  height: 116.517px;
+  flex-shrink: 0;
+  background-color: #EDE9FE;
+  transform: skewY(352deg) translate(956px, -494px);
+}
+header .container .tell {
+  width: 320px;
+  height: 640px;
+  flex-shrink: 0;
+  transform: translate(760px, -880px);
+}
+
+@media screen and (max-width: 481px) {
+  header .container {
+    background-image: url(./images/BG.png);
+    max-width: 1420px;
+    margin: 0 auto;
+    padding: 10px 0px;
+  }
+  header .container nav .landify {
+    padding: 20px 20px;
+  }
+  header .container nav .landify .landi {
+    gap: 10px;
+  }
+  header .container nav .landify .landi .features {
+    display: none;
+  }
+  header .container nav .landify .play {
+    display: none;
+  }
+  header .container nav .landify .burger i {
+    display: inline-block;
+    font-size: 40px;
+  }
+  header .container .the {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 335px;
+    margin-top: 148px;
+    margin-left: 12px;
+    margin-bottom: 240px;
+  }
+  header .container .the h1 {
+    color: #111827;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  header .container .the p {
+    color: #111827;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  header .container .the .get {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  header .container .the .get button {
+    font-size: 18px;
+    width: 138px;
+    height: 56px;
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+    background: #7c3aed;
+  }
+  header .container .the .get div button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 179px;
+    height: 56px;
+    color: #7c3aed;
+    border: none;
+    font-weight: 400;
+    background: white;
+  }
+  header .container .shakl1 {
+    width: 250px;
+    height: 50px;
+    flex-shrink: 0;
+    background: #C4B5FD;
+    transform: skewY(352deg) translate(135px, 68px);
+  }
+  header .container .shakl2 {
+    width: 250px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #75E3EA;
+    transform: skewY(352deg) translate(0px, 20px);
+  }
+  header .container .shakl3 {
+    width: 250px;
+    height: 50px;
+    flex-shrink: 0;
+    transform: skewY(352deg) translate(135px, 12px);
+    background-color: #75E3EA;
+  }
+  header .container .shakl4 {
+    width: 250px;
+    height: 50px;
+    flex-shrink: 0;
+    transform: skewY(352deg) translate(0px, -37px);
+    background-color: #EDE9FE;
+  }
+  header .container .shakl5 {
+    width: 250px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #EDE9FE;
+    transform: skewY(352deg) translate(135px, -180px);
+  }
+  header .container .tell {
+    width: 320px;
+    height: 640px;
+    flex-shrink: 0;
+    transform: translate(10px, -425px);
+  }
+}
+.choriyeva {
+  margin-top: -700px;
+  padding: 16px 112px;
+}
+.choriyeva .air {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding: 24px 0;
+  background: var(--white, #FFF);
+  border-top: 1px solid #E5E7EB;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+@media screen and (max-width: 481px) {
+  .choriyeva {
+    margin-top: -370px;
+    margin-bottom: 50px;
+    padding: 16px 112px;
+  }
+  .choriyeva .air {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.zilola {
+  margin: 0;
+}
+
+.zilola {
+  margin: 0;
+}
+
+.maftuna {
+  margin: 0;
+}
+
+.maftuna {
+  margin: 0;
+}
+
+.kamola {
+  margin: 0;
+}
+
+.dilobar {
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */
